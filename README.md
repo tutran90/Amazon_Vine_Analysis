@@ -7,6 +7,7 @@ The following analysis was conducted on ratings for Amazon beauty products. PySp
 PySpark and SQL was used to perform the analysis on the dataset. 
 
 ## **Results**
+- The following dataframe will be described in detail below: ![image](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Summary_DF.png)
 
 ### How many Vine reviews and non-Vine reviews were there? 
 - A dataframe was created to show the all reviews (both vine and non-Vine reviews): There was a total of **5,115,666 reviews** ![image](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Updated_Amazon_dataset_png.png)
