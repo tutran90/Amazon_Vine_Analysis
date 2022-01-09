@@ -9,8 +9,8 @@ PySpark and SQL was used to perform the analysis on the dataset.
 ## **Results**
 
 ### How many Vine reviews and non-Vine reviews were there? 
-- A dataframe was created to show the all reviews (both vine and non-Vine reviews). There was a total of 5,115,666 reviews ![
-- The dataframe was filtered to show only products that had more than 20 total reviews/votes ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/filtered_vine_df.png)
+- A dataframe was created to show the all reviews (both vine and non-Vine reviews): There was a total of 5,115,666 reviews ![image](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Updated_Amazon_dataset_png.png)
+- The dataframe was filtered to show only products that had more than 20 total reviews/votes:  ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/filtered_vine_df.png)
 - The data was filtered further to only show reviews that had more than 50% of people that believed the review was helpful. The total number of helpful reviews with more than 50% was **74,760 reviews** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/helpful_votes_df.png)
 - From this dataframe, 2 separate dataframes were created to show how many of the helpful votes were **Vine reviews: 647** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/paid_vine_df.png) **non-Vine reviews: 74113** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/unpaid_votes_df.png)
 
