@@ -10,7 +10,7 @@ PySpark and SQL was used to perform the analysis on the dataset.
 
 ### How many Vine reviews and non-Vine reviews were there? 
 - A dataframe was created to show the all reviews (both vine and non-Vine reviews): There was a total of 5,115,666 reviews ![image](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Updated_Amazon_dataset_png.png)
-- The dataframe was filtered to show only products that had more than 20 total reviews/votes:  ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/filtered_vine_df.png)
+- The dataframe was filtered to show only products that had more than 20 total reviews/votes: 79,227 reviews ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Count_filtered_votes.png)
 - The data was filtered further to only show reviews that had more than 50% of people that believed the review was helpful. The total number of helpful reviews with more than 50% was **74,760 reviews** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/helpful_votes_df.png)
 - From this dataframe, 2 separate dataframes were created to show how many of the helpful votes were **Vine reviews: 647** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/paid_vine_df.png) **non-Vine reviews: 74113** ![dataframe](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/unpaid_votes_df.png)
 
@@ -27,4 +27,8 @@ PySpark and SQL was used to perform the analysis on the dataset.
 ![image](https://github.com/tutran90/Amazon_Vine_Analysis/blob/main/Analysis_code.png)
 
 ## **Summary**
-- The majority of helpful 5-star reviews were non-Vine reviews. This analysis does show that there is a high percentage of helpful reviews ()
+- The majority of helpful 5-star reviews were non-Vine reviews. There were a total of approx. 5 million reviews and roughly 75,000 reviews had more than 20 people review it and had more than 50% of people view it as helpful. That is only 1.5% of the whole dataset which is a very small amount. We can infer that not that many reviews are being made. From the helpful 5-star reviews the majority of those reviews were non-Vine reviews. 
+
+- In order to determine if creating a gift/reward program for reviews is beneficial, an analysis should also be conducted on all reviews and not just 5-star reviews. We're missing a big piece of information here since we don't know if some of those low reviews were paid or not. Currently, it appears that there are more helpful reviews from non-Vine clients. 
+
+- This information would be beneficial for the business analytics department to determine what their goal would be for the next quarter whether it is to promote more movement on $ellby's site by having this gift/reward program, or whether it's trying to determine which products to promote or discontinue. 
